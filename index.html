@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Party Time Job</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(270deg, #ff512f, #dd2476, #24c6dc, #514a9d);
+    background-size: 800% 800%;
+    animation: gradientBG 12s ease infinite;
+    color: #fff;
+}
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.hero { text-align:center; padding:60px 20px; }
+.hero h1 { font-size:3em; margin:0; font-weight:800; letter-spacing:2px; text-shadow:2px 2px 10px rgba(0,0,0,0.4);}
+.hero p { margin-top:15px; font-size:1.3em; opacity:0.95; }
+.container {
+    max-width: 500px; margin:-30px auto 40px auto;
+    background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(15px);
+    border-radius: 20px; padding: 30px 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+label { display:block; margin-top:15px; font-weight:bold; color:#fff; text-align:left; }
+input, select {
+    width:100%; padding:14px; margin-top:5px;
+    border-radius:12px; border:1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2); color:#fff; font-size:1em; transition:0.3s;
+}
+input:focus, select:focus { border-color:#fff; box-shadow:0 0 10px rgba(255,255,255,0.6); outline:none; }
+.number-wrapper { display:flex; margin-top:5px; }
+.prefix { padding:14px; background: rgba(255,255,255,0.2); border-radius:12px 0 0 12px;
+    border:1px solid rgba(255,255,255,0.3); border-right:none; width:70px; text-align:center;
+    font-weight:bold; color:#fff; }
+#mobile { border-radius:0 12px 12px 0; border-left:none; flex:1; color:#fff; }
+button { width:100%; padding:15px; margin-top:25px; font-size:1.2em; font-weight:bold;
+    color:white; background:linear-gradient(45deg,#ff9800,#ff512f); border:none; border-radius:15px;
+    cursor:pointer; transition:all 0.3s; box-shadow:0 0 15px rgba(255,87,34,0.6);}
+button:hover { transform:scale(1.05); box-shadow:0 0 25px rgba(255,255,255,0.9); }
+.offer { margin-top:20px; font-size:1.3em; font-weight:bold; color:#fff;
+    background: rgba(255,255,255,0.15); padding:15px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);}
+.error { color:#ffdddd; font-size:0.9em; margin-top:5px; text-align:left; }
+.benefits { max-width:500px; margin:20px auto; padding:20px;
+    background: rgba(255,255,255,0.12); backdrop-filter: blur(12px); border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2); text-align:left; }
+.benefits h2 { margin:0 0 10px 0; color:#ffeb3b; text-shadow:1px 1px 8px rgba(0,0,0,0.6); }
+.benefits ul { padding-left:20px; margin:0; }
+.benefits li { margin:10px 0; font-size:1.05em; list-style:none; position:relative; }
+.benefits li::before { content:"✔"; position:absolute; left:-20px; color:#00ffcc; font-weight:bold; }
+footer { text-align:center; padding:15px; font-size:0.9em;
+    background: linear-gradient(90deg, #ff512f, #dd2476); color:#fff; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>🎉 Party Time Job 🎉</h1>
+    <p>Work Smart • Earn Easy • Just 1 Hour a Day</p>
+</div>
+
+<div class="container">
+    <form id="clientForm" action="https://formsubmit.co/cricketworldcup500@gmail.com" method="POST">
+        <label for="name">Full Name *</label>
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+
+        <label for="mobile">Mobile Number *</label>
+        <div class="number-wrapper">
+            <div class="prefix">+91</div>
+            <input type="tel" name="mobile" placeholder="Enter 10-digit number" maxlength="10" inputmode="numeric" required>
+        </div>
+
+        <label for="state">State *</label>
+        <select name="state" required>
+            <option value="">Select State</option>
+            <option>Rajasthan</option>
+            <option>Uttar Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Delhi</option>
+            <option>Madhya Pradesh</option>
+            <option>Punjab</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Kerala</option>
+            <option>Tamil Nadu</option>
+            <option>Karnataka</option>
+            <option>Bihar</option>
+            <option>West Bengal</option>
+            <option>...All States</option>
+        </select>
+
+        <input type="hidden" name="_next" value="https://YOUR_GITHUB_USERNAME.github.io/party-time-job/thank-you.html">
+
+        <button type="submit">🚀 Apply Now</button>
+    </form>
+    <div class="offer">
+        💰 Earn ₹1,500 — Work 1 Hour/Day — 1 Month
+    </div>
+</div>
+
+<div class="benefits">
+    <h2>✨ Why Choose Party Time Job?</h2>
+    <ul>
+        <li>Flexible Work from Anywhere</li>
+        <li>Only 1 Hour Per Day</li>
+        <li>Trusted by 1000+ Clients</li>
+        <li>100% Genuine & Authentic Opportunity</li>
+    </ul>
+</div>
+
+<footer>
+    © 2025 Party Time Job • Verified Work Opportunity • Limited Seats Available
+</footer>
+
+</body>
+          </html>
+              
